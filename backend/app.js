@@ -7,7 +7,7 @@ mongoose
     "mongodb+srv://Astro97420:testtest123@cluster0.u2prj9i.mongodb.net/test?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
-  .then(() => console.log("Connexion à MongoDB réussie !"))
+  .then(() => console.log("Connexion à MongoDB réussie ok !"))
   .catch(() => console.log("Connexion à MongoDB échouée !"));
 app.use(express.json());
 
